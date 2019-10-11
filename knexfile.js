@@ -3,11 +3,15 @@
 module.exports = {
 
   development: {
-    client: 'postgresql',
-    connection: {
-      database: 'music',
-      user:     'postgres',
-    }
+    client: 'pg',
+    connection:'postgres://localhost/music',
+    migrations: {
+      directory: './migrations'
+    },
+    seeds: {
+      directory: './seeds'
+    },
+    useNullAsDefault: true
   },
 
   staging: {

@@ -9,9 +9,11 @@
   "author": "Jerome Dela Cruz",
   "license": "ISC",
   "dependencies": {
+    "cjs": "0.0.11",
     "express": "^4.17.1",
     "knex": "^0.19.5",
     "nodemon": "^1.19.3",
-    "pg": "^7.12.1"
+    "pg": "^7.12.1",
+    "pg-native": "^3.0.0"
   }
 }
